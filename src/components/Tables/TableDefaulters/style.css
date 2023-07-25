@@ -1,0 +1,47 @@
+.defaultersTotals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    background-color: #FFEFEF;
+    color: #971D1D;
+    border-radius: 10px;
+}
+
+.tableTitle-defaulters {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 8px;
+    font-family: 'Montserrat';
+}
+
+.clients-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.clients-icon img {
+    width: 20px;
+}
+
+.clients-icon h2 {
+    margin-top: 1px;
+}
+
+.container-table-defaulters {
+    height: 375px;
+}
+
+.container-table-defaulters p {
+    font-family: 'Nunito', sans-serif;
+    color: #DA0175;
+    font-size: 15px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.container-table-defaulters a {
+    color: #DA0175;
+}

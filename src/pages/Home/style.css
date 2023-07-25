@@ -1,0 +1,47 @@
+.homeContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    position: relative;
+    background-color: #F8F8F9;
+}
+
+.cardsMainPage {
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-cards-main {
+    width: 90%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+    height: 1000px;
+    margin-right: 24px;
+}
+
+.cards-top {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cards-main {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cards-footer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}

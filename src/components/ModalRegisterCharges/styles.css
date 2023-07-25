@@ -1,0 +1,167 @@
+.modal-register-charges {
+    height: 700px;
+    width: 600px;
+    padding: 56px;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.modal-register-charges h2 {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.modal-form-register-charges {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-register-charges span {
+    margin-bottom: 10px;
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.input-register-charges {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-register-charges input::placeholder {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+.style {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 2px solid rgba(208, 213, 221, 1);
+    border-color: rgba(208, 213, 221, 1);
+}
+
+.style-erro {
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    margin-top: 73px;
+    color: #E70000;
+}
+
+.input-descricao-charges {
+    word-wrap: break-word;
+    height: 88px;
+    padding: 10px 10px 50px 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 2px solid rgba(208, 213, 221, 1);
+    border-color: rgba(208, 213, 221, 1);
+    margin-bottom: 10px;
+}
+
+.style-erro-descricao {
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    margin-top: 120px;
+    color: #E70000;
+}
+
+.container-cpf-tell-charges {
+    display: flex;
+    gap: 24px;
+}
+
+.status-charges {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.ok {
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    background: #f0f0f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    height: 48px;
+    padding: 12px 16px;
+    width: 487px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.ok span {
+    position: absolute;
+    top: 0;
+    margin-top: -28px;
+    left: 0;
+    margin-left: 3px;
+}
+
+.checked {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    background: #0E8750;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../assets/Check.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+}
+
+.uncheck {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    background: #C8C8D7;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.value {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 2px solid rgba(208, 213, 221, 1);
+    border-color: rgba(208, 213, 221, 1);
+    width: 232px;
+}
+
+.defaulter {
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    background: #f0f0f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    height: 48px;
+    padding: 12px 16px;
+    width: 487px;
+    margin-bottom: 30px;
+}

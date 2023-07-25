@@ -1,0 +1,130 @@
+.loginContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSide {
+    display: flex;
+    height: 100vh;
+    width: 30%;
+}
+
+.imageTitle {
+    color: #034A2A;
+    font-size: 24px;
+    line-height: 130%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imageSide {
+    background-image: url(../../assets/loginImage.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cardSide {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSide img {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    margin-top: 105px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.recoverPass {
+    text-align: right;
+    color: #DA0175;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 70px;
+    right: 0;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+.cardLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.cardLogin h2 {
+    color: #343447;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cardFormLogin {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.cardFormLogin p {
+    color: #343447;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.cardFormLogin input {
+    padding: 10px 14px;
+    gap: 8px;
+    font-size: 16px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.cardFormLogin button {
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.loginContent span {
+    cursor: pointer;
+}
+
+.textLink {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}

@@ -1,0 +1,241 @@
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.display-justify-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section-header {
+    width: 99%;
+    margin-top: 50px;
+}
+
+.container-customers {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background-color: #F8F8F9;
+}
+
+.container-section-header {
+    width: 88%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.container-header-customers {
+    display: flex;
+    width: 79vw;
+    justify-content: space-between;
+}
+
+.title-customers {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 15px;
+    margin-top: 21px;
+    margin-left: 50px;
+}
+
+.container-add {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.add-customers {
+    background-color: #DA0175;
+    width: 230px;
+    height: 33px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.filter-customers {
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filter-customers img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-customers {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-customers img {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.search-customers input {
+    all: unset;
+    text-align: left;
+    width: 318px;
+    padding: 10px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #747488;
+    font-size: 15px;
+    box-shadow: rgba(218, 1, 117, 0.05)0px 14px 14px, rgba(218, 1, 117, 0.05) 0px 10px 10px;
+}
+
+.container-table-customers table {
+    font-size: 13px;
+    width: 95%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 10px;
+    height: 180px;
+    margin-top: 30px;
+    table-layout: fixed;
+}
+
+.textCenter {
+    padding-left: 4%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-table-customers table th {
+    margin-bottom: 20px;
+    height: 20px;
+    text-align: left;
+}
+
+th {
+    max-width: 16%;
+}
+
+.container-table-customers table td {
+    text-align: left;
+    border-top: 1px solid #E0E0E0;
+    color: #747488;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.order-customers {
+    margin-top: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tableRowName {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-top: 16px;
+    padding-left: 16px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.addCharge-customers {
+    flex-direction: column;
+    color: #da0175;
+    font-size: 8px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.status-client-ok-customers {
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    border-radius: 8px;
+    height: 20px;
+    font-weight: bold;
+
+}
+
+.status-client-defaulter-customers {
+    color: #971D1D;
+    background-color: #ffefef;
+    border-radius: 8px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.tableRowNameFilter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    min-height: 72px;
+}
+
+.emptyTable {
+    margin-top: 24px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.magPerson {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    right: 37%;
+    top: 10%;
+}
+
+.magGlass {
+    height: 400px;
+    width: 400px;
+}
+
+.emptyOrangeText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #F08889;
+    padding-bottom: 10px;
+}
+
+.emptyGreyText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #9B9BB2;
+    padding-bottom: 16px;
+}
+
+.progressCircle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}

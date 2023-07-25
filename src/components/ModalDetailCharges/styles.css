@@ -1,0 +1,103 @@
+.container-modal-detail {
+    background-color: white;
+    width: 600px;
+    height: 440px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.close-icon-detail {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.title-detail {
+    font-family: 'Montserrat', sans-serif;
+    color: #3F3F55;
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-left: 56px;
+    margin-top: 40px;
+}
+
+.container-modal-detail p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #3F3F55;
+    font-weight: bold;
+}
+
+.container-modal-detail span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.name-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 65px;
+}
+
+.description-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 65px;
+}
+
+.container-footer-detail {
+    display: flex;
+    margin-top: 24px;
+    gap: 80px;
+}
+
+.dueDate-detail {
+    display: flex;
+    flex-direction: column;
+    color: #3F3F55;
+    gap: 4px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 65px;
+}
+
+.id-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    text-align: start;
+    color: #3F3F55;
+    margin-left: 65px;
+}
+
+.value-detail {
+    display: flex;
+    color: #3F3F55;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 65px;
+}
+
+.status-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 65px;
+}

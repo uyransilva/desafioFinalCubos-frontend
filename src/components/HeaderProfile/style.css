@@ -1,0 +1,102 @@
+.headerMainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1%;
+    margin: 0 2% 0 2%;
+    border-bottom: 1px solid #ACD9C5;
+    position: relative;
+}
+
+.headerMainPage h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    line-height: 130%;
+    color: #343447;
+    margin-left: 4%;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+
+
+}
+
+.profileMainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #0E8750;
+    margin-right: 8%;
+}
+
+.userNameProfile {
+    font-family: 'Nunito', sans-serif;
+    border-radius: 50%;
+    background-color: #DEDEE9;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 7px;
+}
+
+.ballonPoint {
+    position: absolute;
+    right: 60%;
+    bottom: 80%;
+}
+
+.edit-button {
+    width: 15px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.profileOptions {
+    display: flex;
+    height: 51px;
+    width: 92px;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.container-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-edit span {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.container-delete span {
+    font-size: 12px;
+}
+
+.container-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-option {
+    width: 20px;
+    cursor: pointer;
+}
+
+.delete-option {
+    width: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.correctsTotals {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 20px;
+        color: #1FA7AF;
+        background-color: #EEF6F6;
+        border-radius: 10px;
+}
+
+.tableTitle-corrects {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 8px;
+        font-family: 'Montserrat';
+}
+
+.client-icon-corrects {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+        font-family: 'Nunito';
+}

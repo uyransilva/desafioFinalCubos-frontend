@@ -1,0 +1,126 @@
+.signupContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.progressBar {
+    background: #F0F0F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100vh;
+    padding-bottom: 10%;
+}
+
+.progressList {
+    display: flex;
+    flex-direction: column;
+}
+
+.progressList li {
+    align-self: center;
+}
+
+.statusProgress {
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.statusList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.statusTitle {
+    color: #0E8750;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.statusText {
+    color: #3F3F55;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: -7px;
+}
+
+.cardSignup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    text-align: start;
+    position: relative;
+}
+
+.iconPassword1 {
+    position: absolute;
+    right: 0;
+    margin-top: 90px;
+    margin-right: 13px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.iconPassword2 {
+    position: absolute;
+    right: 0;
+    margin-top: 175px;
+    margin-right: 13px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.card h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.card p {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.signupCompleted h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardButton a {
+    font-family: 'Nunito';
+}
+
+.signupContent span {
+    cursor: pointer;
+}
+
+.stageBar {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.stageBar img {
+    width: 80px;
+    height: 6px;
+    margin-top: 10px;
+}

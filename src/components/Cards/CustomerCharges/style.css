@@ -1,0 +1,167 @@
+.customerCharges {
+    margin-top: 14px;
+    padding: 24px 15px 24px 15px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.customerChargesHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.chargesTableHeaderImg {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.customerChargesHeader h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.customerChargesHeader button {
+    text-align: center;
+    background-color: #DA0175;
+    border-radius: 10px;
+    width: 250px;
+    height: 33px;
+    color: #FFFF;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.chargesTableHeader {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.chargesTableHeader strong {
+    width: 16%;
+    margin-top: 24px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.chargesTableBody {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.chargesTableRow {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-top: 2px solid #EFF0F6;
+}
+
+.chargeIdCell {
+    padding-left: 24px;
+}
+
+.chargesTableRow span {
+    width: 16%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #6E6E85;
+    cursor: pointer;
+}
+
+.statusOverdue {
+    display: flex;
+    justify-content: center;
+    color: #971D1D;
+    background-color: #FFEFEF;
+    border-radius: 8px;
+    width: fit-content;
+    font-weight: bold;
+    width: 80px;
+}
+
+.statusPendent {
+    display: flex;
+    justify-content: center;
+    color: #C5A605;
+    background-color: #FCF6DC;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: left;
+    width: 80px;
+}
+
+.statusPaid {
+    display: flex;
+    justify-content: center;
+    background-color: #EEF6F6;
+    border-radius: 8px;
+    color: #1FA7AF;
+    font-weight: bold;
+    width: 80px;
+}
+
+.chargeDescription {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.actionColumn {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actionColumn img {
+    width: 17px;
+    height: 16px;
+}
+
+.actionColumn :first-child p {
+    font-family: Nunito;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #747488;
+}
+
+.actionColumn :last-child p {
+    font-family: Nunito;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #AE1100;
+}
+
+.editCharge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}

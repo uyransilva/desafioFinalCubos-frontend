@@ -1,0 +1,115 @@
+.customerName {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #3F3F55;
+    gap: 20px;
+    text-align: left;
+}
+
+.customerName img {
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+}
+
+.customerData {
+    margin-top: 14px;
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 24px 15px 0px 15px;
+}
+
+.alert {
+    height: 50px;
+}
+
+.customerDataHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.customerDataHeader h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.customerDataHeader button {
+    height: 33px;
+    width: 126px;
+    border-radius: 10px;
+    padding: 4px 60px 4px 60px;
+    color: #0E8750;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.customerDataHeader img {
+    height: 18px;
+    width: 18px;
+}
+
+.customerDataTable {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.upperCells {
+    display: flex;
+    gap: 46px;
+}
+
+.lowerCells {
+    display: flex;
+    gap: 48px;
+}
+
+.dataCell {
+    width: 16%;
+}
+
+.dataCell h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dataCell p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

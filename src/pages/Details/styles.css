@@ -1,0 +1,9 @@
+.containerDetails {
+    display: flex;
+    min-height: 100vh;
+    background-color: #F8F8F9;
+}
+
+.container-section-header {
+    padding-left: 10px;
+}

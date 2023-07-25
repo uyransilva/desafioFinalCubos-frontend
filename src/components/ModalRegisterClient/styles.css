@@ -1,0 +1,160 @@
+.backdrop {
+    background: rgba(145, 154, 150, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalRegister {
+    max-height: 100vh;
+    width: 550px;
+    padding: 56px;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.modalRegister h2 {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.closeIcon {
+    height: 17.316761016845703px;
+    width: 18.66666603088379px;
+    position: absolute;
+    right: 30px;
+    top: 30px
+}
+
+.modal-form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-register {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-register span {
+    margin-bottom: 5px;
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.input-register input {
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 2px solid rgba(208, 213, 221, 1);
+    border-color: rgba(208, 213, 221, 1);
+}
+
+.input-register input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.erro-register {
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    margin-top: 68px;
+    color: #E70000;
+}
+
+.input-mask-register-cpf {
+    width: 230px;
+}
+
+.input-mask-register-tell {
+    width: 182px;
+}
+
+.container-cep-district {
+    display: flex;
+    gap: 24px;
+}
+
+.input-mask-cep {
+    width: 200px;
+}
+
+.input-district {
+    width: 213px;
+}
+
+.container-city-state {
+    gap: 24px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.input-city {
+    width: 250px;
+}
+
+.input-state {
+    width: 163px;
+}
+
+.lineBreak {
+    display: flex;
+    margin-top: 10px;
+    gap: 23px;
+}
+
+.btn {
+    width: 231.5px;
+    height: 33px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cancelBtn {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F9;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+    cursor: pointer;
+}
+
+.applyBtn {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DA0175;
+    color: #F8F8F9;
+    border-color: #DA0175;
+    cursor: pointer;
+}
+
+.alert {
+    height: 100px;
+}
+
+.MuiTextField-root {
+    height: 90px;
+}

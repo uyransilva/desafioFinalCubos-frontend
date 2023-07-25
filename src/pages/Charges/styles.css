@@ -1,0 +1,221 @@
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.display-justify-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section-header-charges {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.container-charges {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background-color: #F8F8F9;
+}
+
+.justifyLeft {
+    justify-content: flex-start;
+    margin-left: -10px;
+}
+
+.clientFix {
+    background-color: #971D1D;
+}
+
+.container-section-header-charges {
+    width: 88%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.container-header-charges {
+    display: flex;
+    width: 83vw;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: -48px;
+}
+
+.title-charges {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 15px;
+    margin-top: 21px;
+    margin-left: 100px;
+}
+
+.container-add-charges {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.filter-charges {
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filter-charges img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-charges {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-charges img {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.search-charges input {
+    all: unset;
+    width: 318px;
+    padding: 10px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #747488;
+    font-size: 15px;
+    box-shadow: rgba(218, 1, 117, 0.05)0px 14px 14px, rgba(218, 1, 117, 0.05) 0px 10px 10px;
+}
+
+.container-table-charges table {
+    font-size: 13px;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 23px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: -40px;
+    table-layout: fixed;
+}
+
+.container-table-charges table th {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height: 20px;
+}
+
+.container-table-charges table td {
+    border-top: 1px solid #E0E0E0;
+    color: #747488;
+    height: 65px;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.description {
+    text-align: center;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.values {
+    max-width: 80px;
+}
+
+.order-charges {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.order-charges-id {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addCharge-charges-edit {
+    font-weight: bold;
+    flex-direction: column;
+    color: #747488;
+    font-size: 8px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.addCharge-charges-delete {
+    font-weight: bold;
+    flex-direction: column;
+    color: #AE1100;
+    font-size: 8px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.container-icons-charges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-icons-charges img {
+    width: 20px;
+}
+
+.status-client-ok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    border-radius: 8px;
+    height: 20px;
+    font-weight: bold;
+    width: 50px;
+}
+
+.status-client-defaulter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #971D1D;
+    background-color: #ffefef;
+    border-radius: 8px;
+    height: 20px;
+    font-weight: bold;
+    width: 60px;
+}
+
+.status-client-pending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C5A605;
+    background-color: #FCF6DC;
+    border-radius: 8px;
+    height: 20px;
+    font-weight: bold;
+    width: 70px;
+}

@@ -1,0 +1,48 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F5;
+    width: 10%;
+    padding-top: 30px;
+}
+
+.Navbar nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksNavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.linksNavBarText {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.height {
+    width: 80px;
+    height: 45px;
+}
+
+.navActive {
+    color: #DA0175;
+}
+
+.borderRight {
+    border-right: #DA0175 2px solid;
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 368px;
+}
+
+.card h2 {
+    color: #343447;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.card input {
+    margin-bottom: 20px;
+}
+
+.card button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.cardForm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10%;
+}
+
+.cardForm p {
+    font-size: 14px;
+    color: #344054;
+    margin-bottom: 4px;
+}
+
+.cardForm input {
+    padding: 10px 14px;
+    gap: 8px;
+    font-size: 16px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.cardButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 40px;
+    gap: 4px;
+    background: #DA0175;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F8F8F9;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textLink {
+    font-weight: 400;
+    color: #3F3F55;
+    text-align: center;
+}
+
+.link {
+    margin-left: 2px;
+    color: #DA0175;
+    text-decoration-line: underline;
+}
+
+.stageBar {
+    margin-top: 25px;
+}

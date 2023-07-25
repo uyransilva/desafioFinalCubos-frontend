@@ -1,0 +1,26 @@
+.paidTotals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+    border-radius: 10px;
+}
+
+.container-table-paid {
+    height: 360px;
+}
+
+.container-table-paid p {
+    font-family: 'Nunito', sans-serif;
+    color: #DA0175;
+    font-size: 15px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.container-table-paid a {
+    color: #DA0175;
+}

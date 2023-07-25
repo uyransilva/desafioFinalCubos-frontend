@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  text-align: center;
+  height: 100vh;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  all: initial;
+  cursor: pointer;
+}
+
+.hover-btn-one:hover {
+  background-color: #f91a91;
+}
+
+.hover-btn-two:hover {
+  background-color: #e9e9ef;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

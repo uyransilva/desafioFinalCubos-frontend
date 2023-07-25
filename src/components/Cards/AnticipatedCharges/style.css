@@ -1,0 +1,25 @@
+.anticipatedcharges-box {
+    display: flex;
+    width: 360px;
+    height: 111px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 33px;
+    width: 32px;
+}
+
+.anticipated-values {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 700;
+}
+
+.anticipated-values span {
+    font-size: 18px;
+}
